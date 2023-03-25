@@ -1,6 +1,16 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router';
 import HelloWorld from './components/HelloWorld.vue';
+import i18n from '@/locales/i18n';
+
+const locales = [
+  { code: 'en' as 'en', label: 'English' as string },
+  { code: 'es' as 'es', label: 'Spanish' as string },
+];
+
+const changeLocale = (newLocale: 'en' | 'es') => {
+  i18n.global.locale = newLocale;
+};
 </script>
 
 <template>
@@ -14,8 +24,20 @@ import HelloWorld from './components/HelloWorld.vue';
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
       <nav>
-        <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/">
+          {{ $t('menu.home') }}
+        </RouterLink>
         <RouterLink to="/about">About</RouterLink>
+
+        <div>
+          <a
+            v-for="locale in locales"
+            :key="locale.code"
+            :class="{ active: $i18n.locale === locale.code }"
+            @click="changeLocale(locale.code)">
+            {{ locale.label }}
+          </a>
+        </div>
       </nav>
     </div>
   </header>
