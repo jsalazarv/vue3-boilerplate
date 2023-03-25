@@ -6,6 +6,7 @@ import Books from '@/views/Books/index.vue';
 import Blog from '@/views/Blog/index.vue';
 import Events from '@/views/Events/index.vue';
 import Contact from '@/views/Contact/index.vue';
+import Cart from '@/views/Cart/index.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -44,6 +45,11 @@ const router = createRouter({
       path: '/contact',
       name: 'contact',
       component: Contact,
+    },
+    {
+      path: '/cart',
+      name: 'cart',
+      component: Cart,
     },
     {
       path: '/about',
