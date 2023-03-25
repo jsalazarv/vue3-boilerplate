@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <main>
     <!-- TODO: Delete this section and replace it with the carousel -->
     <section
         class="hero-area section-margin"
@@ -574,7 +574,7 @@
         </div>
       </div>
     </section>
-  </div>
+  </main>
 </template>
 
 <script setup lang="ts">
