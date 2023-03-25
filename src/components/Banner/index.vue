@@ -20,9 +20,8 @@
 </template>
 
 <script setup lang="ts">
-import {computed} from "vue";
-import type {ILink} from "@/components/Banner/types";
-
+import { computed } from 'vue';
+import type { ILink } from '@/components/Banner/types';
 
 const props = defineProps({
   title: {

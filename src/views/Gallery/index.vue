@@ -1,10 +1,10 @@
 <template>
   <div>
     <Banner
-        bg-image="/image/others/bredcrumb-bg.jpg"
-        title="Site Breadcrumb"
-        page-name="Gallery"
-        :links="breadcrumbLinks" />
+      bg-image="/image/others/bredcrumb-bg.jpg"
+      title="Site Breadcrumb"
+      page-name="Gallery"
+      :links="breadcrumbLinks" />
 
     <main class="inner-page-sec-padding pb--0">
       <div class="container">
@@ -14,10 +14,10 @@
               <!-- Product View Mode -->
               <div class="product-view-mode">
                 <a href="#" class="sorting-btn" data-target="list "
-                ><i class="fas fa-list"></i
+                  ><i class="fas fa-list"></i
                 ></a>
                 <a href="#" class="sorting-btn active" data-target="grid"
-                ><i class="fas fa-th"></i
+                  ><i class="fas fa-th"></i
                 ></a>
               </div>
             </div>
@@ -28,8 +28,8 @@
               <div class="sorting-selection">
                 <span>Sort By:</span>
                 <select
-                    id="input-sort"
-                    class="form-control nice-select sort-select">
+                  id="input-sort"
+                  class="form-control nice-select sort-select">
                   <option value="" selected="selected">Default Sorting</option>
                   <option value="">Sort By:Name (A - Z)</option>
                   <option value="">Sort By:Name (Z - A)</option>
@@ -56,17 +56,17 @@
 
                   <div class="hover-btns">
                     <a href="cart.html" class="sin-btn"
-                    ><i class="ion-bag"></i
+                      ><i class="ion-bag"></i
                     ></a>
                     <a href="compare.html" class="sin-btn"
-                    ><i class="ion-android-options"></i
+                      ><i class="ion-android-options"></i
                     ></a>
                     <a
-                        href="javascript:"
-                        class="sin-btn"
-                        data-toggle="modal"
-                        data-target="#quickModal"
-                    ><i class="ion-android-open"></i
+                      href="javascript:"
+                      class="sin-btn"
+                      data-toggle="modal"
+                      data-target="#quickModal"
+                      ><i class="ion-android-open"></i
                     ></a>
                   </div>
                 </div>
@@ -141,17 +141,17 @@
 
                   <div class="hover-btns">
                     <a href="cart.html" class="sin-btn"
-                    ><i class="ion-bag"></i
+                      ><i class="ion-bag"></i
                     ></a>
                     <a href="compare.html" class="sin-btn"
-                    ><i class="ion-android-options"></i
+                      ><i class="ion-android-options"></i
                     ></a>
                     <a
-                        href="javascript:"
-                        class="sin-btn"
-                        data-toggle="modal"
-                        data-target="#quickModal"
-                    ><i class="ion-android-open"></i
+                      href="javascript:"
+                      class="sin-btn"
+                      data-toggle="modal"
+                      data-target="#quickModal"
+                      ><i class="ion-android-open"></i
                     ></a>
                   </div>
                 </div>
@@ -226,17 +226,17 @@
 
                   <div class="hover-btns">
                     <a href="cart.html" class="sin-btn"
-                    ><i class="ion-bag"></i
+                      ><i class="ion-bag"></i
                     ></a>
                     <a href="compare.html" class="sin-btn"
-                    ><i class="ion-android-options"></i
+                      ><i class="ion-android-options"></i
                     ></a>
                     <a
-                        href="javascript:"
-                        class="sin-btn"
-                        data-toggle="modal"
-                        data-target="#quickModal"
-                    ><i class="ion-android-open"></i
+                      href="javascript:"
+                      class="sin-btn"
+                      data-toggle="modal"
+                      data-target="#quickModal"
+                      ><i class="ion-android-open"></i
                     ></a>
                   </div>
                 </div>
@@ -311,17 +311,17 @@
 
                   <div class="hover-btns">
                     <a href="cart.html" class="sin-btn"
-                    ><i class="ion-bag"></i
+                      ><i class="ion-bag"></i
                     ></a>
                     <a href="compare.html" class="sin-btn"
-                    ><i class="ion-android-options"></i
+                      ><i class="ion-android-options"></i
                     ></a>
                     <a
-                        href="javascript:"
-                        class="sin-btn"
-                        data-toggle="modal"
-                        data-target="#quickModal"
-                    ><i class="ion-android-open"></i
+                      href="javascript:"
+                      class="sin-btn"
+                      data-toggle="modal"
+                      data-target="#quickModal"
+                      ><i class="ion-android-open"></i
                     ></a>
                   </div>
                 </div>
@@ -396,17 +396,17 @@
 
                   <div class="hover-btns">
                     <a href="cart.html" class="sin-btn"
-                    ><i class="ion-bag"></i
+                      ><i class="ion-bag"></i
                     ></a>
                     <a href="compare.html" class="sin-btn"
-                    ><i class="ion-android-options"></i
+                      ><i class="ion-android-options"></i
                     ></a>
                     <a
-                        href="javascript:"
-                        class="sin-btn"
-                        data-toggle="modal"
-                        data-target="#quickModal"
-                    ><i class="ion-android-open"></i
+                      href="javascript:"
+                      class="sin-btn"
+                      data-toggle="modal"
+                      data-target="#quickModal"
+                      ><i class="ion-android-open"></i
                     ></a>
                   </div>
                 </div>
@@ -481,17 +481,17 @@
 
                   <div class="hover-btns">
                     <a href="cart.html" class="sin-btn"
-                    ><i class="ion-bag"></i
+                      ><i class="ion-bag"></i
                     ></a>
                     <a href="compare.html" class="sin-btn"
-                    ><i class="ion-android-options"></i
+                      ><i class="ion-android-options"></i
                     ></a>
                     <a
-                        href="javascript:"
-                        class="sin-btn"
-                        data-toggle="modal"
-                        data-target="#quickModal"
-                    ><i class="ion-android-open"></i
+                      href="javascript:"
+                      class="sin-btn"
+                      data-toggle="modal"
+                      data-target="#quickModal"
+                      ><i class="ion-android-open"></i
                     ></a>
                   </div>
                 </div>
@@ -564,14 +564,14 @@
               </div>
               <div class="pagination-btns">
                 <a href="" class="single-btn prev-btn"
-                ><i class="zmdi zmdi-chevron-left"></i> Previous</a
+                  ><i class="zmdi zmdi-chevron-left"></i> Previous</a
                 >
                 <a href="" class="single-btn">1</a>
                 <a href="" class="single-btn">2</a>
                 <a href="" class="single-btn">3</a>
                 <a href="" class="single-btn">4</a>
                 <a href="" class="single-btn next-btn"
-                >Next <i class="zmdi zmdi-chevron-right"></i
+                  >Next <i class="zmdi zmdi-chevron-right"></i
                 ></a>
               </div>
             </div>
@@ -580,19 +580,19 @@
 
         <!-- Modal -->
         <div
-            class="modal fade modal-quick-view"
-            id="quickModal"
-            tabindex="-1"
-            role="dialog"
-            aria-labelledby="quickModal"
-            aria-hidden="true">
+          class="modal fade modal-quick-view"
+          id="quickModal"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="quickModal"
+          aria-hidden="true">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <button
-                  type="button"
-                  class="close modal-close-btn ml-auto"
-                  data-dismiss="modal"
-                  aria-label="Close">
+                type="button"
+                class="close modal-close-btn ml-auto"
+                data-dismiss="modal"
+                aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
               <div class="product-details-modal">
@@ -600,8 +600,8 @@
                   <div class="col-lg-5">
                     <!-- Product Details Slider Big Image-->
                     <div
-                        class="product-details-slider handart-slick-slider arrow-type-two"
-                        data-slick-setting='{
+                      class="product-details-slider handart-slick-slider arrow-type-two"
+                      data-slick-setting='{
                     "slidesToShow": 1,
                     "arrows": false,
                     "fade": true,
@@ -611,34 +611,34 @@
                     }'>
                       <div class="single-slide">
                         <img
-                            src="image/products/product-details-big-1.jpg"
-                            alt="" />
+                          src="image/products/product-details-big-1.jpg"
+                          alt="" />
                       </div>
                       <div class="single-slide">
                         <img
-                            src="image/products/product-details-big-2.jpg"
-                            alt="" />
+                          src="image/products/product-details-big-2.jpg"
+                          alt="" />
                       </div>
                       <div class="single-slide">
                         <img
-                            src="image/products/product-details-big-3.jpg"
-                            alt="" />
+                          src="image/products/product-details-big-3.jpg"
+                          alt="" />
                       </div>
                       <div class="single-slide">
                         <img
-                            src="image/products/product-details-big-4.jpg"
-                            alt="" />
+                          src="image/products/product-details-big-4.jpg"
+                          alt="" />
                       </div>
                       <div class="single-slide">
                         <img
-                            src="image/products/product-details-big-5.jpg"
-                            alt="" />
+                          src="image/products/product-details-big-5.jpg"
+                          alt="" />
                       </div>
                     </div>
                     <!-- Product Details Slider Nav -->
                     <div
-                        class="mt--30 product-slider-nav handart-slick-slider arrow-type-two"
-                        data-slick-setting='{
+                      class="mt--30 product-slider-nav handart-slick-slider arrow-type-two"
+                      data-slick-setting='{
                   "infinite":true,
                     "autoplay": true,
                     "autoplaySpeed": 8000,
@@ -651,28 +651,28 @@
                     }'>
                       <div class="single-slide">
                         <img
-                            src="image/products/product-details-big-1.jpg"
-                            alt="" />
+                          src="image/products/product-details-big-1.jpg"
+                          alt="" />
                       </div>
                       <div class="single-slide">
                         <img
-                            src="image/products/product-details-big-2.jpg"
-                            alt="" />
+                          src="image/products/product-details-big-2.jpg"
+                          alt="" />
                       </div>
                       <div class="single-slide">
                         <img
-                            src="image/products/product-details-big-3.jpg"
-                            alt="" />
+                          src="image/products/product-details-big-3.jpg"
+                          alt="" />
                       </div>
                       <div class="single-slide">
                         <img
-                            src="image/products/product-details-big-4.jpg"
-                            alt="" />
+                          src="image/products/product-details-big-4.jpg"
+                          alt="" />
                       </div>
                       <div class="single-slide">
                         <img
-                            src="image/products/product-details-big-5.jpg"
-                            alt="" />
+                          src="image/products/product-details-big-5.jpg"
+                          alt="" />
                       </div>
                     </div>
                   </div>
@@ -691,10 +691,10 @@
                         </div>
                         <div class="review-widget">
                           <a href=""
-                          ><i class="far fa-comment"></i>Read reviews (1)</a
+                            ><i class="far fa-comment"></i>Read reviews (1)</a
                           >
                           <a href=""
-                          ><i class="fas fa-pencil-alt"></i>Write a review</a
+                            ><i class="fas fa-pencil-alt"></i>Write a review</a
                           >
                         </div>
                       </div>
@@ -715,9 +715,9 @@
                         <div class="widgets">
                           <div class="count-input-block">
                             <input
-                                type="number"
-                                class="form-control text-center"
-                                value="1" />
+                              type="number"
+                              class="form-control text-center"
+                              value="1" />
                             <div class="count-input-btns">
                               <button class="inc-ammount count-btn">
                                 <i class="zmdi zmdi-chevron-up"></i>
@@ -729,7 +729,7 @@
                           </div>
                           <div class="add-cart-btn">
                             <a href="" class="btn btn-outlined--primary"
-                            ><i class="ion-bag"></i>Add to Cart</a
+                              ><i class="ion-bag"></i>Add to Cart</a
                             >
                           </div>
                           <div class="product-status">
@@ -745,18 +745,18 @@
                 <div class="widget-social-share">
                   <span class="widget-label">Share</span>
                   <div
-                      class="social-share rounded-icons transparent-bg text-left">
+                    class="social-share rounded-icons transparent-bg text-left">
                     <a href="#" class="single-icon"
-                    ><i class="fab fa-facebook-f"></i
+                      ><i class="fab fa-facebook-f"></i
                     ></a>
                     <a href="#" class="single-icon"
-                    ><i class="fab fa-twitter"></i
+                      ><i class="fab fa-twitter"></i
                     ></a>
                     <a href="#" class="single-icon"
-                    ><i class="fab fa-youtube"></i
+                      ><i class="fab fa-youtube"></i
                     ></a>
                     <a href="#" class="single-icon"
-                    ><i class="fab fa-google-plus-g"></i
+                      ><i class="fab fa-google-plus-g"></i
                     ></a>
                   </div>
                 </div>

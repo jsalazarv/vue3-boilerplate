@@ -1,10 +1,10 @@
 <template>
   <div>
     <Banner
-        bg-image="/image/others/bredcrumb-bg.jpg"
-        title="Site Breadcrumb"
-        page-name="Blog"
-        :links="breadcrumbLinks" />
+      bg-image="/image/others/bredcrumb-bg.jpg"
+      title="Site Breadcrumb"
+      page-name="Blog"
+      :links="breadcrumbLinks" />
 
     <main class="inner-page-sec-padding-top">
       <div class="container">
@@ -12,19 +12,19 @@
           <div class="col-lg-9 order-lg-2 mb--70 mb-lg--0">
             <div class="row space-dt--30">
               <div
-                  class="col-12 mt--30"
-                  v-for="(blog, index) in blogs"
-                  :key="index">
+                class="col-12 mt--30"
+                v-for="(blog, index) in blogs"
+                :key="index">
                 <PostPreview
-                    :image="blog.image.url"
-                    :alt="blog.alt"
-                    :month="blog.publication_date.month"
-                    :day="blog.publication_date.day"
-                    :title="blog.title"
-                    :link="blog.link"
-                    :author="blog.author.name"
-                    :content="blog.short_description"
-                    @onClick="redirectToDetail(blog.id)" />
+                  :image="blog.image.url"
+                  :alt="blog.alt"
+                  :month="blog.publication_date.month"
+                  :day="blog.publication_date.day"
+                  :title="blog.title"
+                  :link="blog.link"
+                  :author="blog.author.name"
+                  :content="blog.short_description"
+                  @onClick="redirectToDetail(blog.id)" />
               </div>
             </div>
           </div>
@@ -93,7 +93,7 @@
 </template>
 
 <script setup lang="ts">
-import {ref} from "vue";
+import { ref } from 'vue';
 import Banner from '@/components/Banner/index.vue';
 import PostPreview from '@/components/PostPreview/index.vue';
 import blogData from '@/assets/json/blogs/index.json';

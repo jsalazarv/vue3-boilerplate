@@ -4,6 +4,7 @@ import Shop from '@/views/Shop/index.vue';
 import Gallery from '@/views/Gallery/index.vue';
 import Books from '@/views/Books/index.vue';
 import Blog from '@/views/Blog/index.vue';
+import Events from '@/views/Events/index.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,6 +33,11 @@ const router = createRouter({
       path: '/blog',
       name: 'blog',
       component: Blog,
+    },
+    {
+      path: '/events',
+      name: 'events',
+      component: Events,
     },
     {
       path: '/about',

@@ -2,25 +2,25 @@
   <main>
     <!-- TODO: Delete this section and replace it with the carousel -->
     <section
-        class="hero-area section-margin"
-        style="height: 100vh; background-color: #bcbcbc">
+      class="hero-area section-margin"
+      style="height: 100vh; background-color: #bcbcbc">
       <div class="d-flex justify-content-center align-items-center h-100">
         <swiper
-            id="swiper-replace"
-            :breakpoints="galleryBreakpoints"
-            :style="{
+          id="swiper-replace"
+          :breakpoints="galleryBreakpoints"
+          :style="{
             '--swiper-navigation-color': '#fff',
             '--swiper-pagination-color': '#fff',
           }"
-            :navigation="true"
-            :autoplay="{
+          :navigation="true"
+          :autoplay="{
             delay: 2500,
             disableOnInteraction: false,
           }"
-            :pagination="{
+          :pagination="{
             clickable: true,
           }"
-            :modules="modules">
+          :modules="modules">
           <swiper-slide v-for="(image, i) in main_images" :key="i">
             <img :src="image.image_url" />
           </swiper-slide>
@@ -43,8 +43,8 @@
               </div>
               <div class="position-relative">
                 <article
-                    class="welcome-description"
-                    :class="{ paragraph: !showBiography }">
+                  class="welcome-description"
+                  :class="{ paragraph: !showBiography }">
                   <p>{{ $t('home.whoIs.biography.paragraph1') }}</p>
                   <p>{{ $t('home.whoIs.biography.paragraph2') }}</p>
                   <p>{{ $t('home.whoIs.biography.paragraph3') }}</p>
@@ -52,8 +52,8 @@
                 </article>
                 <div :class="{ gradient: !showBiography }">
                   <span
-                      class="font-weight-mid text-black text-uppercase cursor-pointer hover-color"
-                      @click="onShowBiography">
+                    class="font-weight-mid text-black text-uppercase cursor-pointer hover-color"
+                    @click="onShowBiography">
                     {{ $t('home.whoIs.showMore') }}
                   </span>
                 </div>
@@ -73,34 +73,34 @@
         <div class="ha-custom-tab">
           <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li
-                class="nav-item"
-                v-for="(collection, index) in collections"
-                :key="index">
+              class="nav-item"
+              v-for="(collection, index) in collections"
+              :key="index">
               <a
-                  class="nav-link cursor-pointer"
-                  :class="{ active: activeTab === index }"
-                  @click="activeTab = index">
+                class="nav-link cursor-pointer"
+                :class="{ active: activeTab === index }"
+                @click="activeTab = index">
                 {{ collection.title }}
               </a>
             </li>
           </ul>
           <div class="tab-content space-db--30">
             <div
-                class="tab-pane fade"
-                :class="{ 'show active': activeTab === index }"
-                v-for="(collection, index) in collections"
-                :key="index">
+              class="tab-pane fade"
+              :class="{ 'show active': activeTab === index }"
+              v-for="(collection, index) in collections"
+              :key="index">
               <div class="row">
                 <div
-                    class="col-lg-3 col-sm-6 mb--30"
-                    v-for="(picture, pictureIndex) in collection.pictures"
-                    :key="pictureIndex">
+                  class="col-lg-3 col-sm-6 mb--30"
+                  v-for="(picture, pictureIndex) in collection.pictures"
+                  :key="pictureIndex">
                   <ProductCard
-                      :isNew="collection.is_new_collection"
-                      :image="picture.images[0].url"
-                      :name="picture.title"
-                      :price="picture.price"
-                      :sku="picture.sku" />
+                    :isNew="collection.is_new_collection"
+                    :image="picture.images[0].url"
+                    :name="picture.title"
+                    :price="picture.price"
+                    :sku="picture.sku" />
                 </div>
               </div>
             </div>
@@ -111,15 +111,15 @@
 
     <!-- TODO: Delete this section and replace it with the carousel -->
     <section
-        class="bg-image section-margin section-padding section-padding-top"
-        data-bg="/image/bg-images/home-1/bg-testimonial.jpg"
-        style="height: 50vh; background-color: #bcbcbc">
+      class="bg-image section-margin section-padding section-padding-top"
+      data-bg="/image/bg-images/home-1/bg-testimonial.jpg"
+      style="height: 50vh; background-color: #bcbcbc">
       <div class="d-flex justify-content-center align-items-center h-100">
         <swiper
-            id="swiper-replace"
-            :breakpoints="galleryBreakpoints"
-            :navigation="galleryNavigation"
-            :modules="modules">
+          id="swiper-replace"
+          :breakpoints="galleryBreakpoints"
+          :navigation="galleryNavigation"
+          :modules="modules">
           <swiper-slide v-for="(image, i) in images" :key="i">
             <img :src="image.image_url" />
           </swiper-slide>
@@ -138,14 +138,14 @@
           </p>
         </div>
         <swiper
-            id="swiper-replace"
-            :breakpoints="cardBreakpoints"
-            :style="{
+          id="swiper-replace"
+          :breakpoints="cardBreakpoints"
+          :style="{
             '--swiper-navigation-color': '#fff',
             '--swiper-pagination-color': '#fff',
           }"
-            :navigation="true"
-            :modules="modules">
+          :navigation="true"
+          :modules="modules">
           <swiper-slide>
             <div class="product-card">
               <div class="image">
@@ -157,17 +157,17 @@
 
                   <div class="hover-btns">
                     <a href="cart.html" class="sin-btn"
-                    ><i class="ion-bag"></i
+                      ><i class="ion-bag"></i
                     ></a>
                     <a href="compare.html" class="sin-btn"
-                    ><i class="ion-android-options"></i
+                      ><i class="ion-android-options"></i
                     ></a>
                     <a
-                        href="javascript:"
-                        class="sin-btn"
-                        data-toggle="modal"
-                        data-target="#quickModal"
-                    ><i class="ion-android-open"></i
+                      href="javascript:"
+                      class="sin-btn"
+                      data-toggle="modal"
+                      data-target="#quickModal"
+                      ><i class="ion-android-open"></i
                     ></a>
                   </div>
                 </div>
@@ -211,17 +211,17 @@
 
                   <div class="hover-btns">
                     <a href="cart.html" class="sin-btn"
-                    ><i class="ion-bag"></i
+                      ><i class="ion-bag"></i
                     ></a>
                     <a href="compare.html" class="sin-btn"
-                    ><i class="ion-android-options"></i
+                      ><i class="ion-android-options"></i
                     ></a>
                     <a
-                        href="javascript:"
-                        class="sin-btn"
-                        data-toggle="modal"
-                        data-target="#quickModal"
-                    ><i class="ion-android-open"></i
+                      href="javascript:"
+                      class="sin-btn"
+                      data-toggle="modal"
+                      data-target="#quickModal"
+                      ><i class="ion-android-open"></i
                     ></a>
                   </div>
                 </div>
@@ -265,17 +265,17 @@
 
                   <div class="hover-btns">
                     <a href="cart.html" class="sin-btn"
-                    ><i class="ion-bag"></i
+                      ><i class="ion-bag"></i
                     ></a>
                     <a href="compare.html" class="sin-btn"
-                    ><i class="ion-android-options"></i
+                      ><i class="ion-android-options"></i
                     ></a>
                     <a
-                        href="javascript:"
-                        class="sin-btn"
-                        data-toggle="modal"
-                        data-target="#quickModal"
-                    ><i class="ion-android-open"></i
+                      href="javascript:"
+                      class="sin-btn"
+                      data-toggle="modal"
+                      data-target="#quickModal"
+                      ><i class="ion-android-open"></i
                     ></a>
                   </div>
                 </div>
@@ -319,17 +319,17 @@
 
                   <div class="hover-btns">
                     <a href="cart.html" class="sin-btn"
-                    ><i class="ion-bag"></i
+                      ><i class="ion-bag"></i
                     ></a>
                     <a href="compare.html" class="sin-btn"
-                    ><i class="ion-android-options"></i
+                      ><i class="ion-android-options"></i
                     ></a>
                     <a
-                        href="javascript:"
-                        class="sin-btn"
-                        data-toggle="modal"
-                        data-target="#quickModal"
-                    ><i class="ion-android-open"></i
+                      href="javascript:"
+                      class="sin-btn"
+                      data-toggle="modal"
+                      data-target="#quickModal"
+                      ><i class="ion-android-open"></i
                     ></a>
                   </div>
                 </div>
@@ -373,17 +373,17 @@
 
                   <div class="hover-btns">
                     <a href="cart.html" class="sin-btn"
-                    ><i class="ion-bag"></i
+                      ><i class="ion-bag"></i
                     ></a>
                     <a href="compare.html" class="sin-btn"
-                    ><i class="ion-android-options"></i
+                      ><i class="ion-android-options"></i
                     ></a>
                     <a
-                        href="javascript:"
-                        class="sin-btn"
-                        data-toggle="modal"
-                        data-target="#quickModal"
-                    ><i class="ion-android-open"></i
+                      href="javascript:"
+                      class="sin-btn"
+                      data-toggle="modal"
+                      data-target="#quickModal"
+                      ><i class="ion-android-open"></i
                     ></a>
                   </div>
                 </div>
@@ -427,17 +427,17 @@
 
                   <div class="hover-btns">
                     <a href="cart.html" class="sin-btn"
-                    ><i class="ion-bag"></i
+                      ><i class="ion-bag"></i
                     ></a>
                     <a href="compare.html" class="sin-btn"
-                    ><i class="ion-android-options"></i
+                      ><i class="ion-android-options"></i
                     ></a>
                     <a
-                        href="javascript:"
-                        class="sin-btn"
-                        data-toggle="modal"
-                        data-target="#quickModal"
-                    ><i class="ion-android-open"></i
+                      href="javascript:"
+                      class="sin-btn"
+                      data-toggle="modal"
+                      data-target="#quickModal"
+                      ><i class="ion-android-open"></i
                     ></a>
                   </div>
                 </div>
@@ -556,20 +556,20 @@
         </div>
         <div class="row">
           <div
-              class="col-lg-4 col-md-6 mt--30"
-              v-for="(blog, index) in blogs"
-              :key="index">
+            class="col-lg-4 col-md-6 mt--30"
+            v-for="(blog, index) in blogs"
+            :key="index">
             <PostPreview
-                vertical
-                :image="blog.image.url"
-                :alt="blog.alt"
-                :month="blog.publication_date.month"
-                :day="blog.publication_date.day"
-                :title="blog.title"
-                :link="blog.link"
-                :author="blog.author.name"
-                :content="blog.short_description"
-                @onClick="redirectToDetail(blog.id)" />
+              vertical
+              :image="blog.image.url"
+              :alt="blog.alt"
+              :month="blog.publication_date.month"
+              :day="blog.publication_date.day"
+              :title="blog.title"
+              :link="blog.link"
+              :author="blog.author.name"
+              :content="blog.short_description"
+              @onClick="redirectToDetail(blog.id)" />
           </div>
         </div>
       </div>
@@ -578,7 +578,7 @@
 </template>
 
 <script setup lang="ts">
-import {ref} from "vue";
+import { ref } from 'vue';
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import { Autoplay, Pagination, Navigation } from 'swiper';
 import 'swiper/css';
@@ -588,7 +588,6 @@ import ProductCard from '@/components/ProductCard/index.vue';
 import PostPreview from '@/components/PostPreview/index.vue';
 import collectionsData from '@/assets/json/collections/index.json';
 import blogData from '@/assets/json/blogs/index.json';
-
 
 const main_images = [
   { image_url: 'image/bg-images/home-1/home-slider-image-2.jpg' },

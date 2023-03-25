@@ -10,13 +10,11 @@
               <ul class="main-menu @@menuColor">
                 <li class="menu-item has-children">
                   <RouterLink to="/">
-                    {{$t('menu.home')}}
+                    {{ $t('menu.home') }}
                   </RouterLink>
                 </li>
                 <li class="menu-item has-children">
-                  <RouterLink to="/shop">{{
-                    $t('menu.shop')
-                  }}</RouterLink>
+                  <RouterLink to="/shop">{{ $t('menu.shop') }}</RouterLink>
                 </li>
                 <li class="menu-item has-children">
                   <RouterLink to="/gallery">{{
@@ -24,19 +22,13 @@
                   }}</RouterLink>
                 </li>
                 <li class="menu-item has-children">
-                  <RouterLink to="/books">{{
-                    $t('menu.books')
-                  }}</RouterLink>
+                  <RouterLink to="/books">{{ $t('menu.books') }}</RouterLink>
                 </li>
                 <li class="menu-item has-children">
-                  <RouterLink to="/blog">{{
-                    $t('menu.blog')
-                  }}</RouterLink>
+                  <RouterLink to="/blog">{{ $t('menu.blog') }}</RouterLink>
                 </li>
                 <li class="menu-item has-children">
-                  <RouterLink to="/events">{{
-                    $t('menu.events')
-                  }}</RouterLink>
+                  <RouterLink to="/events">{{ $t('menu.events') }}</RouterLink>
                 </li>
                 <li class="menu-item">
                   <RouterLink to="/contact">{{
@@ -60,9 +52,7 @@
                   ></a>
                 </li>
                 <li class="sin-link">
-                  <RouterLink
-                    to="/cart"
-                    class="cart-link link-icon">
+                  <RouterLink to="/cart" class="cart-link link-icon">
                     <i class="ion-bag"></i>
                   </RouterLink>
                   <div class="sin-dropdown cart-dropdown">
@@ -129,10 +119,11 @@
                         <i class="fas fa-angle-down"></i>
                       </h4>
                       <ul class="option-list">
-                        <li v-for="locale in locales"
-                            :key="locale.code"
-                            :class="{ active: $i18n.locale === locale.code }"
-                            @click="changeLocale(locale.code)">
+                        <li
+                          v-for="locale in locales"
+                          :key="locale.code"
+                          :class="{ active: $i18n.locale === locale.code }"
+                          @click="changeLocale(locale.code)">
                           {{ locale.label }}
                         </li>
                       </ul>
@@ -239,34 +230,22 @@
                 <RouterLink to="/">{{ $t('menu.home') }}</RouterLink>
               </li>
               <li class="menu-item-has-children">
-                <RouterLink to="/shop">{{
-                  $t('menu.shop')
-                }}</RouterLink>
+                <RouterLink to="/shop">{{ $t('menu.shop') }}</RouterLink>
               </li>
               <li class="menu-item-has-children">
-                <RouterLink to="/gallery">{{
-                  $t('menu.gallery')
-                }}</RouterLink>
+                <RouterLink to="/gallery">{{ $t('menu.gallery') }}</RouterLink>
               </li>
               <li class="menu-item-has-children">
-                <RouterLink to="/books">{{
-                  $t('menu.books')
-                }}</RouterLink>
+                <RouterLink to="/books">{{ $t('menu.books') }}</RouterLink>
               </li>
               <li class="menu-item-has-children">
-                <RouterLink to="/blog">{{
-                  $t('menu.blog')
-                }}</RouterLink>
+                <RouterLink to="/blog">{{ $t('menu.blog') }}</RouterLink>
               </li>
               <li class="menu-item-has-children">
-                <RouterLink to="/events">{{
-                  $t('menu.events')
-                }}</RouterLink>
+                <RouterLink to="/events">{{ $t('menu.events') }}</RouterLink>
               </li>
               <li class="menu-item-has-children">
-                <RouterLink to="/contact">{{
-                  $t('menu.contact')
-                }}</RouterLink>
+                <RouterLink to="/contact">{{ $t('menu.contact') }}</RouterLink>
               </li>
             </ul>
           </nav>
