@@ -94,6 +94,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
+import router from '@/router';
 import Banner from '@/components/Banner/index.vue';
 import PostPreview from '@/components/PostPreview/index.vue';
 import blogData from '@/assets/json/blogs/index.json';
@@ -111,9 +112,7 @@ const breadcrumbLinks = [
 const blogs = ref(blogData);
 
 const redirectToDetail = (id: number) => {
-  navigateTo({
-    path: `/blog/${id}`,
-  });
+  router.push({ name: 'blog:show', params: { id } });
 };
 </script>
 

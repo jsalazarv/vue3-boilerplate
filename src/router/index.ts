@@ -4,6 +4,7 @@ import Shop from '@/views/Shop/index.vue';
 import Gallery from '@/views/Gallery/index.vue';
 import Books from '@/views/Books/index.vue';
 import Blog from '@/views/Blog/index.vue';
+import ShowBlog from '@/views/Blog/ShowBlog.vue';
 import Events from '@/views/Events/index.vue';
 import Contact from '@/views/Contact/index.vue';
 import Cart from '@/views/Cart/index.vue';
@@ -40,6 +41,11 @@ const router = createRouter({
       component: Blog,
     },
     {
+      path: '/blog/:id',
+      name: 'blog:show',
+      component: ShowBlog,
+    },
+    {
       path: '/events',
       name: 'events',
       component: Events,
@@ -69,14 +75,14 @@ const router = createRouter({
       name: 'auth',
       component: Auth,
     },
-    {
+    /*   {
       path: '/about',
       name: 'about',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue'),
-    },
+    },*/
   ],
 });
 

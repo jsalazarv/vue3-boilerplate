@@ -578,7 +578,8 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref} from 'vue';
+import router from '@/router';
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import { Autoplay, Pagination, Navigation } from 'swiper';
 import 'swiper/css';
@@ -631,9 +632,7 @@ const activeTab = ref(0);
 const showBiography = ref(false);
 
 const redirectToDetail = (id: number) => {
-  navigateTo({
-    path: `/blog/${id}`,
-  });
+  router.push({ name: 'blog:show', params: { id } });
 };
 
 const onShowBiography = () => {
