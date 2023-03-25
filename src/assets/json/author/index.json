@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "name": "Demo Handart",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+    "contact": {
+      "phone": "(800) 0123 456 789",
+      "email": "contacto@claudiacristina.art"
+    },
+    "addresses": [
+      {
+        "country": "USA",
+        "state": "New York",
+        "city": "New York",
+        "street": "Elm Street",
+        "zip": "1234",
+        "exterior_number": "15",
+        "interior_number": "02"
+      }
+    ],
+    "images": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ]
+  }
+]

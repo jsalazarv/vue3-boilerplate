@@ -1,0 +1,410 @@
+[
+  {
+    "id": 1,
+    "title": "Collection 1",
+    "is_new_collection": true,
+    "is_available": true,
+    "publication_date": "01-03-2023",
+    "enabled": true,
+    "created_date": "",
+    "last_update": "",
+    "pictures": [
+      {
+        "id": 1,
+        "title": "Picture 1 C1",
+        "sku": "13245",
+        "technique": "13245",
+        "sizes": "13245",
+        "price": "13245",
+        "short_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "sold": true,
+        "enabled": true,
+        "created_date": "",
+        "last_update": "",
+        "images": [
+          {
+            "url": "/image/products/home-1/product-1.jpg",
+            "name": "image"
+          },
+          {
+            "url": "/image/products/home-1/product-1.jpg",
+            "name": "image"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "5 Disadvantages Of Handcraft",
+        "sku": "13245",
+        "technique": "13245",
+        "sizes": "13245",
+        "price": "13245",
+        "short_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "sold": true,
+        "enabled": true,
+        "created_date": "",
+        "last_update": "",
+        "images": [
+          {
+            "url": "/image/products/home-1/product-1.jpg",
+            "name": "image"
+          },
+          {
+            "url": "/image/products/home-1/product-1.jpg",
+            "name": "image"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "5 Disadvantages Of Handcraft",
+        "sku": "13245",
+        "technique": "13245",
+        "sizes": "13245",
+        "price": "13245",
+        "short_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "sold": true,
+        "enabled": true,
+        "created_date": "",
+        "last_update": "",
+        "images": [
+          {
+            "url": "/image/products/home-1/product-1.jpg",
+            "name": "image"
+          },
+          {
+            "url": "/image/products/home-1/product-1.jpg",
+            "name": "image"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "5 Disadvantages Of Handcraft",
+        "sku": "13245",
+        "technique": "13245",
+        "sizes": "13245",
+        "price": "13245",
+        "short_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "sold": true,
+        "enabled": true,
+        "created_date": "",
+        "last_update": "",
+        "images": [
+          {
+            "url": "/image/products/home-1/product-1.jpg",
+            "name": "image"
+          },
+          {
+            "url": "/image/products/home-1/product-1.jpg",
+            "name": "image"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "5 Disadvantages Of Handcraft",
+        "sku": "13245",
+        "technique": "13245",
+        "sizes": "13245",
+        "price": "13245",
+        "short_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "sold": true,
+        "enabled": true,
+        "created_date": "",
+        "last_update": "",
+        "images": [
+          {
+            "url": "/image/products/home-1/product-1.jpg",
+            "name": "image"
+          },
+          {
+            "url": "/image/products/home-1/product-1.jpg",
+            "name": "image"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "5 Disadvantages Of Handcraft",
+        "sku": "13245",
+        "technique": "13245",
+        "sizes": "13245",
+        "price": "13245",
+        "short_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "sold": true,
+        "enabled": true,
+        "created_date": "",
+        "last_update": "",
+        "images": [
+          {
+            "url": "/image/products/home-1/product-1.jpg",
+            "name": "image"
+          },
+          {
+            "url": "/image/products/home-1/product-1.jpg",
+            "name": "image"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "5 Disadvantages Of Handcraft",
+        "sku": "13245",
+        "technique": "13245",
+        "sizes": "13245",
+        "price": "13245",
+        "short_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "sold": true,
+        "enabled": true,
+        "created_date": "",
+        "last_update": "",
+        "images": [
+          {
+            "url": "/image/products/home-1/product-1.jpg",
+            "name": "image"
+          },
+          {
+            "url": "/image/products/home-1/product-1.jpg",
+            "name": "image"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "5 Disadvantages Of Handcraft",
+        "sku": "13245",
+        "technique": "13245",
+        "sizes": "13245",
+        "price": "13245",
+        "short_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "sold": true,
+        "enabled": true,
+        "created_date": "",
+        "last_update": "",
+        "images": [
+          {
+            "url": "/image/products/home-1/product-1.jpg",
+            "name": "image"
+          },
+          {
+            "url": "/image/products/home-1/product-1.jpg",
+            "name": "image"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Collection 2",
+    "is_new_collection": true,
+    "is_available": true,
+    "publication_date": "01-03-2023",
+    "enabled": true,
+    "created_date": "",
+    "last_update": "",
+    "pictures": [
+      {
+        "id": 1,
+        "title": "Picture 1 C2",
+        "sku": "13245",
+        "technique": "13245",
+        "sizes": "13245",
+        "price": "13245",
+        "short_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "sold": true,
+        "enabled": true,
+        "created_date": "",
+        "last_update": "",
+        "images": [
+          {
+            "url": "/image/products/home-1/product-1.jpg",
+            "name": "image"
+          },
+          {
+            "url": "/image/products/home-1/product-1.jpg",
+            "name": "image"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Picture 1 C2",
+        "sku": "13245",
+        "technique": "13245",
+        "sizes": "13245",
+        "price": "13245",
+        "short_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "sold": true,
+        "enabled": true,
+        "created_date": "",
+        "last_update": "",
+        "images": [
+          {
+            "url": "/image/products/home-1/product-1.jpg",
+            "name": "image"
+          },
+          {
+            "url": "/image/products/home-1/product-1.jpg",
+            "name": "image"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "5 Disadvantages Of Handcraft",
+        "sku": "13245",
+        "technique": "13245",
+        "sizes": "13245",
+        "price": "13245",
+        "short_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "sold": true,
+        "enabled": true,
+        "created_date": "",
+        "last_update": "",
+        "images": [
+          {
+            "url": "/image/products/home-1/product-1.jpg",
+            "name": "image"
+          },
+          {
+            "url": "/image/products/home-1/product-1.jpg",
+            "name": "image"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "5 Disadvantages Of Handcraft",
+        "sku": "13245",
+        "technique": "13245",
+        "sizes": "13245",
+        "price": "13245",
+        "short_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "sold": true,
+        "enabled": true,
+        "created_date": "",
+        "last_update": "",
+        "images": [
+          {
+            "url": "/image/products/home-1/product-1.jpg",
+            "name": "image"
+          },
+          {
+            "url": "/image/products/home-1/product-1.jpg",
+            "name": "image"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "5 Disadvantages Of Handcraft",
+        "sku": "13245",
+        "technique": "13245",
+        "sizes": "13245",
+        "price": "13245",
+        "short_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "sold": true,
+        "enabled": true,
+        "created_date": "",
+        "last_update": "",
+        "images": [
+          {
+            "url": "/image/products/home-1/product-1.jpg",
+            "name": "image"
+          },
+          {
+            "url": "/image/products/home-1/product-1.jpg",
+            "name": "image"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "5 Disadvantages Of Handcraft",
+        "sku": "13245",
+        "technique": "13245",
+        "sizes": "13245",
+        "price": "13245",
+        "short_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "sold": true,
+        "enabled": true,
+        "created_date": "",
+        "last_update": "",
+        "images": [
+          {
+            "url": "/image/products/home-1/product-1.jpg",
+            "name": "image"
+          },
+          {
+            "url": "/image/products/home-1/product-1.jpg",
+            "name": "image"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "5 Disadvantages Of Handcraft",
+        "sku": "13245",
+        "technique": "13245",
+        "sizes": "13245",
+        "price": "13245",
+        "short_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "sold": true,
+        "enabled": true,
+        "created_date": "",
+        "last_update": "",
+        "images": [
+          {
+            "url": "/image/products/home-1/product-1.jpg",
+            "name": "image"
+          },
+          {
+            "url": "/image/products/home-1/product-1.jpg",
+            "name": "image"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "5 Disadvantages Of Handcraft",
+        "sku": "13245",
+        "technique": "13245",
+        "sizes": "13245",
+        "price": "13245",
+        "short_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "sold": true,
+        "enabled": true,
+        "created_date": "",
+        "last_update": "",
+        "images": [
+          {
+            "url": "/image/products/home-1/product-1.jpg",
+            "name": "image"
+          },
+          {
+            "url": "/image/products/home-1/product-1.jpg",
+            "name": "image"
+          }
+        ]
+      }
+    ]
+  }
+]

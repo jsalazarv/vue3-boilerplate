@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "position": 1,
+    "enabled": true,
+    "created_date": "",
+    "last_update": "",
+    "images": [
+      {
+        "url": "",
+        "name": ""
+      },
+      {
+        "url": "",
+        "name": ""
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "position": 2,
+    "enabled": true,
+    "created_date": "",
+    "last_update": "",
+    "images": [
+      {
+        "url": "",
+        "name": ""
+      },
+      {
+        "url": "",
+        "name": ""
+      }
+    ]
+  }
+]

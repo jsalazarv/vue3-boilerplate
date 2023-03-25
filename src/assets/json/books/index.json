@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "title": "5 Disadvantages Of Handcraft",
+    "enabled": true,
+    "created_date": "",
+    "last_update": "",
+    "pdf": {
+      "url": "",
+      "name": ""
+    },
+    "image": {
+      "url": "",
+      "name": ""
+    },
+    "author": {
+      "id": 1,
+      "name": "Demo Handart",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+      "contact": {
+        "phone": "Demo Handart",
+        "email": "Demo Handart"
+      },
+      "addresses": [
+        {
+          "country": "lkjlkj",
+          "state": "lkjlkj",
+          "city": "lkjlkj",
+          "street": "lkjlkj",
+          "zip": "lkjlkj",
+          "exterior_number": "lkjlkj",
+          "interior_number": "lkjlkj"
+        }
+      ],
+      "images": [
+        {
+          "url": "",
+          "name": ""
+        }
+      ]
+    }
+  }
+]

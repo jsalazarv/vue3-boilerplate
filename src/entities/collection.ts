@@ -1,4 +1,4 @@
-import { IPicture } from '~/entities/picture';
+import type { IPicture } from '@/entities/picture';
 
 export interface ICollection {
   id: number;

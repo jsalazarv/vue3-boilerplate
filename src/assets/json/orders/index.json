@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "client_id": 1,
+    "address_id": 1,
+    "order_number": 1,
+    "total": 1,
+    "delivery_status": "",
+    "enabled": true,
+    "created_date": "",
+    "last_update": "",
+    "products": [
+      {
+        "id": 1,
+        "title": "5 Disadvantages Of Handcraft",
+        "sku": "13245",
+        "technique": "13245",
+        "sizes": "13245",
+        "price": "13245",
+        "short_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+        "sold": true,
+        "enabled": true,
+        "created_date": "",
+        "last_update": "",
+        "images": [
+          {
+            "url": "",
+            "name": "",
+            "main": true
+          },
+          {
+            "url": "",
+            "name": "",
+            "main": false
+          }
+        ]
+      }
+    ]
+  }
+]

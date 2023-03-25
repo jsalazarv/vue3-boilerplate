@@ -1,8 +1,8 @@
 export default {
   whoIs: {
-    title: 'Who Is',
-    name: 'Claudia Cristina Velasco',
     biography: {
+      title: 'Who Is',
+      name: 'Claudia Cristina Velasco',
       paragraph1:
         'The artist was born in Leon Guanajuato, Mexico. She began her preparation at an early age, studying Design, Philosophy, Painting and Art in Italy, Switzerland, New York, and Mexico.',
       paragraph2:

@@ -1,6 +1,6 @@
-import { IImage } from '~/entities/IImage';
-import { IAuthor } from '~/entities/author';
-import { IPdf } from '~/entities/pdf';
+import type { IPdf } from '@/entities/pdf';
+import type { IImage } from '@/entities/IImage';
+import type { IAuthor } from '@/entities/author';
 
 export interface IBook {
   id: number;
