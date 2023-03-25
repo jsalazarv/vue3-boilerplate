@@ -3,6 +3,7 @@ import Home from '@/views/Home/index.vue';
 import Shop from '@/views/Shop/index.vue';
 import Gallery from '@/views/Gallery/index.vue';
 import Books from '@/views/Books/index.vue';
+import Blog from '@/views/Blog/index.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -26,6 +27,11 @@ const router = createRouter({
       path: '/books',
       name: 'books',
       component: Books,
+    },
+    {
+      path: '/blog',
+      name: 'blog',
+      component: Blog,
     },
     {
       path: '/about',
