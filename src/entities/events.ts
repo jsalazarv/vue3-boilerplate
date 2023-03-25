@@ -1,5 +1,5 @@
-import { IImage } from '~/entities/IImage';
-import { IAddress } from '~/entities/address';
+import type { IAddress } from '@/entities/address';
+import type { IImage } from '@/entities/IImage';
 
 export interface IEvents {
   id: number;

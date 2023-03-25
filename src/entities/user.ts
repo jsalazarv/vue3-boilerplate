@@ -1,5 +1,5 @@
-import { IContact } from '~/entities/contact';
-import { IAddress } from '~/entities/address';
+import type { IContact } from '@/entities/contact';
+import type { IAddress } from '@/entities/address';
 
 export interface IUser {
   id: number;

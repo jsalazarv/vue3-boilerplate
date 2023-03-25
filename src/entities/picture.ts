@@ -1,4 +1,4 @@
-import { IImage } from '~/entities/IImage';
+import type { IImage } from '@/entities/IImage';
 
 export interface IPicture {
   id: number;

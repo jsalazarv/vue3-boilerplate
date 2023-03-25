@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "lkjlkj",
+    "last_name": "lkjlkj",
+    "contact": {
+      "phone": "Demo Handart",
+      "email": "Demo Handart"
+    },
+    "addresses": [
+      {
+        "country": "lkjlkj",
+        "state": "lkjlkj",
+        "city": "lkjlkj",
+        "street": "lkjlkj",
+        "zip": "lkjlkj",
+        "exterior_number": "lkjlkj",
+        "interior_number": "lkjlkj"
+      }
+    ]
+  }
+]

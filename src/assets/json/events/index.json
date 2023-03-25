@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "5 Disadvantages Of Handcraft",
+    "short_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the ...",
+    "addresses": [
+      {
+        "country": "lkjlkj",
+        "state": "lkjlkj",
+        "city": "lkjlkj",
+        "street": "lkjlkj",
+        "zip": "lkjlkj",
+        "exterior_number": "lkjlkj",
+        "interior_number": "lkjlkj"
+      }
+    ],
+    "enabled": true,
+    "created_date": "",
+    "last_update": "",
+    "date": {
+      "start_date": "5 Disadvantages Of Handcraft",
+      "end_date": "5 Disadvantages Of Handcraft"
+    },
+    "image": {
+      "url": "/image/others/blog-card-1.jpg",
+      "name": ""
+    }
+  }
+]
