@@ -1,13 +1,13 @@
 <template>
   <div>
     <Banner
-        bg-image="/image/others/bredcrumb-bg.jpg"
-        title="Site Breadcrumb"
-        page-name="Checkout"
-        :links="breadcrumbLinks" />
+      bg-image="/image/others/bredcrumb-bg.jpg"
+      title="Site Breadcrumb"
+      page-name="Checkout"
+      :links="breadcrumbLinks" />
     <main
-        id="content"
-        class="page-section inner-page-sec-padding-top space-db--20">
+      id="content"
+      class="page-section inner-page-sec-padding-top space-db--20">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -21,10 +21,10 @@
                     <p>
                       <i class="far fa-sticky-note"></i>Returning customer?
                       <a
-                          href="javascript:"
-                          class="slide-trigger"
-                          data-target="#quick-login"
-                      >Click here to login</a
+                        href="javascript:"
+                        class="slide-trigger"
+                        data-target="#quick-login"
+                        >Click here to login</a
                       >
                     </p>
                   </div>
@@ -50,18 +50,18 @@
                             <a href="#" class="btn btn-black">Login</a>
                             <div class="d-inline-flex align-items-center ml-3">
                               <input
-                                  type="checkbox"
-                                  id="accept_terms"
-                                  class="mb-0 mr-1" />
+                                type="checkbox"
+                                id="accept_terms"
+                                class="mb-0 mr-1" />
                               <label for="accept_terms" class="mb-0"
-                              >I’ve read and accept the terms &amp;
+                                >I’ve read and accept the terms &amp;
                                 conditions</label
                               >
                             </div>
                           </div>
                           <p>
                             <a href="javascript:" class="pass-lost mt-3"
-                            >Lost your password?</a
+                              >Lost your password?</a
                             >
                           </p>
                         </div>
@@ -74,9 +74,9 @@
                     <p>
                       <i class="far fa-sticky-note"></i>Have a coupon?
                       <a
-                          href="javascript:"
-                          class="slide-trigger"
-                          data-target="#quick-cupon">
+                        href="javascript:"
+                        class="slide-trigger"
+                        data-target="#quick-cupon">
                         Click here to enter your code</a
                       >
                     </p>
@@ -86,9 +86,9 @@
                     <form action="./">
                       <div class="checkout_coupon">
                         <input
-                            type="text"
-                            class="mb-0"
-                            placeholder="Coupon Code" />
+                          type="text"
+                          class="mb-0"
+                          placeholder="Coupon Code" />
                         <a href="" class="btn btn-black">Apply coupon</a>
                       </div>
                     </form>
@@ -158,16 +158,16 @@
                           <div class="check-box">
                             <input type="checkbox" id="create_account" />
                             <label for="create_account"
-                            >Create an Acount?</label
+                              >Create an Acount?</label
                             >
                           </div>
                           <div class="check-box">
                             <input
-                                type="checkbox"
-                                id="shiping_address"
-                                data-shipping />
+                              type="checkbox"
+                              id="shiping_address"
+                              data-shipping />
                             <label for="shiping_address"
-                            >Ship to Different Address</label
+                              >Ship to Different Address</label
                             >
                           </div>
                         </div>
@@ -241,11 +241,11 @@
                   <div class="order-note-block mt--30">
                     <label for="order-note">Order notes</label>
                     <textarea
-                        id="order-note"
-                        cols="30"
-                        rows="10"
-                        class="order-note"
-                        placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
+                      id="order-note"
+                      cols="30"
+                      rows="10"
+                      class="order-note"
+                      placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
                   </div>
                 </div>
 
@@ -260,24 +260,24 @@
                         <ul>
                           <li>
                             <span class="left"
-                            >Cillum dolore tortor nisl X 01</span
+                              >Cillum dolore tortor nisl X 01</span
                             >
                             <span class="right">$25.00</span>
                           </li>
                           <li>
                             <span class="left"
-                            >Auctor gravida pellentesque X 02 </span
+                              >Auctor gravida pellentesque X 02 </span
                             ><span class="right">$50.00</span>
                           </li>
                           <li>
                             <span class="left"
-                            >Condimentum posuere consectetur X 01</span
+                              >Condimentum posuere consectetur X 01</span
                             >
                             <span class="right">$29.00</span>
                           </li>
                           <li>
                             <span class="left"
-                            >Habitasse dictumst elementum X 01</span
+                              >Habitasse dictumst elementum X 01</span
                             >
                             <span class="right">$10.00</span>
                           </li>
@@ -299,7 +299,7 @@
                         <div class="term-block">
                           <input type="checkbox" id="accept_terms2" />
                           <label for="accept_terms2"
-                          >I’ve read and accept the terms & conditions</label
+                            >I’ve read and accept the terms & conditions</label
                           >
                         </div>
                         <button class="place-order w-100">Place order</button>

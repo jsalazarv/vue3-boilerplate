@@ -8,6 +8,8 @@ import Events from '@/views/Events/index.vue';
 import Contact from '@/views/Contact/index.vue';
 import Cart from '@/views/Cart/index.vue';
 import Checkout from '@/views/Checkout/index.vue';
+import MyAccount from '@/views/MyAccount/index.vue';
+import Auth from '@/views/Auth/index.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -56,6 +58,16 @@ const router = createRouter({
       path: '/checkout',
       name: 'checkout',
       component: Checkout,
+    },
+    {
+      path: '/my-account',
+      name: 'myAccount',
+      component: MyAccount,
+    },
+    {
+      path: '/auth',
+      name: 'auth',
+      component: Auth,
     },
     {
       path: '/about',
